@@ -1,16 +1,14 @@
 import './App.css';
-
+import Header from './Header';
+import Main from'./Main';
+import Footer from './Footer'
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Welcome to Little Lemon! 🍋</h1>
-      </header>
-      <main>
-        <p>We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-      </main>
-    </div>
+    <>
+    <Header/>
+    <Main/>
+    <Footer/>
+    </>
   );
 }
-
-export default App;
+export default App; 
